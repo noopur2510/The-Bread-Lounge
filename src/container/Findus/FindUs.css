@@ -1,0 +1,11 @@
+.app__findus{
+    background-color: var(--color-maroon);
+}
+.app__wrapper_img img{
+    height: 500px;
+    width: 400px;
+}
+
+.app__wrapper-content, .app__wrapper_img {
+    flex:1;
+}

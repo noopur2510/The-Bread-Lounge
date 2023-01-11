@@ -1,0 +1,102 @@
+.app__aboutus{
+    position: relative;
+    z-index: 0;
+}
+.app__aboutus-overlay{
+    position: absolute;
+    inset: 0;
+    display: flex;
+}
+.app__aboutus-overlay img{
+    z-index:-50;
+    position: relative;
+    padding-right:80px;
+    padding-bottom: 200px;
+    padding-left: 75px;
+    width: 1000px;
+    height: 1500px;
+    padding-top: 280px;
+    flex: 1;
+}
+
+.app__aboutus-content{
+    flex: 1;
+    width: 100%;
+    z-index: 2;
+}
+.app__aboutus-content_about{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+   max-width: 100rem;
+   /* padding-right: 60px;*/
+   /* padding-left: 60px;  */
+   justify-content: flex-end;
+   align-items: flex-end;
+   text-align: right;
+ 
+}
+.app__aboutus-content_history{
+    max-width: 100rem;
+     /* padding-right: 58px;  */
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: left;
+ }
+ .app__aboutus-content_knife{
+    height: 800px;
+    width: 400px;
+    flex: 1;
+    /* padding-right: 90px; */
+ }
+ .app__aboutus-content_history p, .app__aboutus-content_about p{
+    padding: 2rem 0;
+ }
+
+ @media screen and (max-width:2000px){
+    .app__aboutus-overlay img{
+        height: 1446px;
+    }
+ }
+ /* @media screen  and (max-width:1150px) {
+    .app__aboutus-content_about, .app__aboutus-content_history, .app__aboutus-content_knife{
+        flex:1;
+        display: flex;
+
+    }
+    .app__aboutus-content_knife{
+        width: 80%;
+        height: 80%;
+    }
+ } */
+
+    @media screen and (max-width:900px){
+        .app__aboutus-overlay img {
+            z-index: 0;
+            padding-right: 50px;
+            /* padding-bottom: 288px; */
+            padding-left: 50px;
+            width: 673px;
+            height: 963px;
+            /* padding-top: 118px; */
+            flex: 1;
+            justify-content: center;
+        } 
+        .app__aboutus-content{
+            flex-direction: column;
+        }
+        .app__aboutus-content_knife{
+            height: 80px;
+        }
+
+    }
+    @media screen and (max-width:650px){
+        .app__aboutus-overlay img {
+            width: 540px;
+            height: 855px;
+        }  
+    }
+ 
