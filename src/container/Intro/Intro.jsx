@@ -9,7 +9,7 @@ const Intro = () => {
   const vidRef = React.useRef();
 
   return (
-    <div className="app__video">
+    <div className=" app__video app__bg">
       <video
         ref={vidRef}
         src={meal}

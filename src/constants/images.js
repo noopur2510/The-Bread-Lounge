@@ -1,7 +1,5 @@
 import bg from '../assets/bg.jpg';
 import B from '../assets/B.png';
-import knife from '../assets/knife.png';
-import logo from '../assets/logo.png';
 import menu from '../assets/menu.jpg';
 import overlaybg from '../assets/overlaybg.png';
 import spoon from '../assets/spoon.svg';
@@ -20,12 +18,10 @@ import nine from '../assets/9.jpg';
 import ten from '../assets/10.jpg';
 import find from '../assets/find.jpg';
 import tbl from '../assets/tbl.png';
-
+import welcome3 from '../assets/welcome3.jpg';
 export default {
   bg,
   B,
-  knife,
-  logo,
   menu,
   overlaybg,
   spoon,
@@ -33,4 +29,5 @@ export default {
   logonav,
   brand2,
   one, two, three, four, five, six, seven, eight, nine, ten,find,tbl,
+  welcome3,
 };

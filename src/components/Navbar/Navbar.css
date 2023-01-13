@@ -4,12 +4,12 @@
     
 }
 .app__navbar{
+    width: 100%;
     background-color:#37222B;
     display: flex;
     color: var(--color-golden);
     justify-content: space-between;
     padding: 0.2rem 2rem;
-    width: 100%;
     font-family: var(--font-base);
     align-items: center;
     
@@ -121,6 +121,7 @@
 @media screen and (max-width: 650px){
     .app__navbar{
         padding: 1rem;
+    
     }
     .app__navbar-login{
         display: none;

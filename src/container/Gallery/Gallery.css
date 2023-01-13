@@ -3,6 +3,7 @@
     flex-direction: row;
     background: var(--color-maroon);
     padding: 4rem 0 4rem 6rem;
+
 }
 .app__gallery-images_card img{
     height: 100%;
