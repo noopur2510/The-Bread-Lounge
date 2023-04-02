@@ -172,7 +172,7 @@ button{
 
 @media screen and (max-width: 650px) {
   .section__padding {
-    padding: 4rem 2rem;
+    padding: 4rem 1rem;
   }
   
   .p__cormorant {
